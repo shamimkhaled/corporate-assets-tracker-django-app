@@ -2,8 +2,6 @@
 # Corporate Assets Tracker System
 
 
-
-
 ## How to Run This Project
 
 ### To run this project, follow these steps:
