@@ -1,20 +1,20 @@
 
 # Corporate Assets Tracker System
 
-A brief description of what this project does and who it's for
+
 
 
 ## How to Run This Project
 
 ### To run this project, follow these steps:
 
-1. #### Clone the Git Repository:
+#### 1. Clone the Git Repository:
 Clone the project's Git repository using the following command:
 
 ```bash
   git clone https://github.com/shamimkhaled/corporate-assets-tracker-django-app.git
 ```
-2. #### Set Up a Virtual Environment:
+#### 2. Set Up a Virtual Environment:
  Open the cloned project in Visual Studio Code (VS Code). In the VS Code terminal (either Command Prompt or Git Bash), create a virtual environment inside the project root folder:
 ```bash
   python -m venv env
@@ -32,21 +32,21 @@ Clone the project's Git repository using the following command:
 ```bash
 source "C:\Users\shamim\Desktop\AssetsApp\env\Scripts\activate"
 ```
-3. #### Navigate to the Project Directory:
+#### 3.  Navigate to the Project Directory:
 If you're not already in the project root directory, navigate to the Django project directory named "assets_tracker":
 
 ```bash
   cd assets_tracker
 ```
 
-4. #### Install Project Dependencies:
+#### 4.  Install Project Dependencies:
 Install all project dependencies by running the following command:
 
 ```bash
   pip install -r requirements.txt
 ```
 
-5. #### Database Migration:
+#### 5. Database Migration:
 Migrate the database to create necessary tables:
 
 ```bash
@@ -56,7 +56,7 @@ Migrate the database to create necessary tables:
   python manage.py migrate
 ```
 
-6. #### Create a Superuser:
+#### 6. Create a Superuser:
 Create a superuser account to access the admin panel of the project:
 
 ```bash
@@ -64,7 +64,7 @@ Create a superuser account to access the admin panel of the project:
 ```
 Follow the prompts to set a username, email, and password for the superuser.
 
-7. #### Run the Project:
+#### 7. Run the Project:
 Start the Django development server:
 
 ```bash
