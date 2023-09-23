@@ -1,6 +1,11 @@
 from django.contrib import admin
 from . import models
 
+# Override the admin site header, title, index_title, 
+admin.site.site_header = "Assets Traker"
+admin.site.site_title = "Assets Traker"
+admin.site.index_title = "Welcome to Admin Panel"
+
 # Register the All models here.
 
 # Customized the CompanyAdmin
