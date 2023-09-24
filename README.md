@@ -1,7 +1,24 @@
 
 # Corporate Assets Tracker System
 
+### Database Model of this project:
+#### Company:
+Attributes: company_name, company_mail, contact_info
 
+#### Employee:
+Attributes: full_name, address, contact_info
+
+#### Asset:
+Attributes: asset_id, title, model, category(foreign key to CategoryType), qty, price, condition, supplier, image
+
+### AssetAllocation:
+Attributes: device (foreign key to Asset), employee (foreign key to Employee), checkout_time, return_time, condition_on_checkout, condition_on_return
+
+#### CategoryType:
+Attributes: category_type
+
+#### Supplier:
+Attributes: supplier_name, contact_name, contact_info, status
 
 
 ## How to Run This Project
